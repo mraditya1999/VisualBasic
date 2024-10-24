@@ -1,0 +1,16 @@
+generate key file => sn.exe -k myfile.snk
+
+gac command => Gacutil.exe -i Library.dll
+
+generate public token key => sn -T Library.dll
+
+changing from newer version to older version
+<runtime>
+	<assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+		<dependentAssembly>
+			<assemblyIdentity name="Library" publicKeyToken="" culture="neutral" />
+			<bindingRedirect oldVersion="2.0.0.0" newVersion="1.0.0.0" />
+		</dependentAssembly>
+
+	</assemblyBinding>
+</runtime>

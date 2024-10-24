@@ -1,0 +1,10 @@
+F:\VisualBasicPrograms\PracticeAssembly\Consumer2\bin\Debug\Consumer2.exe.config
+F:\VisualBasicPrograms\PracticeAssembly\Consumer2\bin\Debug\Consumer2.exe
+F:\VisualBasicPrograms\PracticeAssembly\Consumer2\bin\Debug\Consumer2.pdb
+F:\VisualBasicPrograms\PracticeAssembly\Consumer2\bin\Debug\Library.dll
+F:\VisualBasicPrograms\PracticeAssembly\Consumer2\bin\Debug\Library.pdb
+F:\VisualBasicPrograms\PracticeAssembly\Consumer2\obj\Debug\Consumer2.csproj.AssemblyReference.cache
+F:\VisualBasicPrograms\PracticeAssembly\Consumer2\obj\Debug\Consumer2.csproj.CoreCompileInputs.cache
+F:\VisualBasicPrograms\PracticeAssembly\Consumer2\obj\Debug\Consumer2.csproj.Up2Date
+F:\VisualBasicPrograms\PracticeAssembly\Consumer2\obj\Debug\Consumer2.exe
+F:\VisualBasicPrograms\PracticeAssembly\Consumer2\obj\Debug\Consumer2.pdb

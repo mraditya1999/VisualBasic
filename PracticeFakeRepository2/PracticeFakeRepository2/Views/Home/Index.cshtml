@@ -1,0 +1,138 @@
+﻿@using PracticeFakeRepository2.Models
+@model IEnumerable<Student>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .table-container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+
+        .form-container {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+            .form-container input, .form-container button {
+                padding: 10px;
+                margin: 10px 0;
+                width: 100%;
+                box-sizing: border-box;
+            }
+
+            .form-container button {
+                background-color: #4CAF50;
+                color: white;
+                border: none;
+                cursor: pointer;
+            }
+
+                .form-container button:hover {
+                    background-color: #45a049;
+                }
+
+        .delete-form button {
+            background-color: #ff4c4c;
+        }
+
+            .delete-form button:hover {
+                background-color: #ff1c1c;
+            }
+    </style>
+</head>
+<body>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Student ID</th>
+                    <th>Student Name</th>
+                    <th>Student Course</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var stu in Model)
+                {
+                    <tr>
+                        <td>@stu.StudentId</td>
+                        <td>@stu.StudentName</td>
+                        <td>@stu.StudentCourse</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <div class="form-container">
+            <h2>Add Student</h2>
+            <form method="post" action="/Home/AddStudent">
+                <input type="text" name="StudentId" placeholder="Student ID" required />
+                <input type="text" name="StudentName" placeholder="Student Name" required />
+                <input type="text" name="StudentCourse" placeholder="Student Course" required />
+                <button type="submit">Add Student</button>
+            </form>
+        </div>
+
+        <div class="form-container">
+            <h2>Update Student</h2>
+            <form method="post" action="/Home/UpdateStudent">
+                <input type="text" name="StudentId" placeholder="Student ID" required />
+                <input type="text" name="StudentName" placeholder="Student Name" required />
+                <input type="text" name="StudentCourse" placeholder="Student Course" required />
+                <button type="submit">Update Student</button>
+            </form>
+        </div>
+
+        <div class="form-container delete-form">
+            <h2>Delete Student</h2>
+            <form method="post" action="/Home/DeleteStudent">
+                <input type="text" name="StudentId" placeholder="Student ID" required />
+                <button type="submit">Delete Student</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
