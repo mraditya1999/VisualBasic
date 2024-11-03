@@ -1,0 +1,61 @@
+﻿@model IEnumerable<EmployeeManagementSystem.Models.Abstract.Employee>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <p>
+        @Html.ActionLink("Add New Employee", "AddEmployee")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.EmployeeId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmployeeName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmployeeDesignation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmployeeSalary)
+            </th>
+            <th>Action</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EmployeeId)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.EmployeeName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EmployeeDesignation)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EmployeeSalary)
+                </td>
+                <td>
+                    @Html.ActionLink("Update", "UpdateEmployee", new { employeeId = item.EmployeeId }) |
+                    @Html.ActionLink("Delete", "DeleteEmployee", new { employeeId = item.EmployeeId })
+                </td>
+
+            </tr>
+        }
+
+    </table>
+</body>
+</html>
