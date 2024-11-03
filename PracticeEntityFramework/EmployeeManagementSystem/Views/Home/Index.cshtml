@@ -1,0 +1,119 @@
+﻿@using EmployeeManagementSystem
+@model IEnumerable<Employee>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Employee Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+
+        .actions {
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn {
+            padding: 8px 12px;
+            text-decoration: none;
+            color: white;
+            background-color: #4CAF50;
+            border-radius: 4px;
+            text-align: center;
+        }
+
+            .btn:hover {
+                background-color: #45a049;
+            }
+
+        .btn-danger {
+            background-color: #f44336;
+        }
+
+            .btn-danger:hover {
+                background-color: #d32f2f;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Employee Management System</h1>
+        <a href="/Home/AddEmployee" class="btn">Add Employee</a>
+        <table>
+            <thead>
+                <tr>
+                    <th>Employee Id</th>
+                    <th>Employee Name</th>
+                    <th>Employee Designation</th>
+                    <th>Employee Salary</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var emp in Model)
+                {
+                    <tr>
+                        <td>@emp.employeeId</td>
+                        <td>@emp.employeeName</td>
+                        <td>@emp.employeeDesignation</td>
+                        <td>@emp.employeeSalary</td>
+                        <td class="actions">
+                            @Html.ActionLink("Edit", "UpdateEmployee", new { employeeId = emp.employeeId }, new { @class = "btn" })
+                            @Html.ActionLink("Delete", "DeleteEmployee", new { employeeId = emp.employeeId }, new { @class = "btn btn-danger" })
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

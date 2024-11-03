@@ -1,4 +1,3 @@
 {
-  "dotnet.preferCSharpExtension": true,
-  "dotnet.defaultSolution": "PracticeFakeRepository2/PracticeFakeRepository2.sln"
+  "dotnet.preferCSharpExtension": true
 }
