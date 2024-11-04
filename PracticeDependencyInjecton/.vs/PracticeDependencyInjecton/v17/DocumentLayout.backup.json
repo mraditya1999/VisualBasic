@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "F:\\VisualBasicPrograms\\PracticeDependencyInjecton\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC021417-7D2C-4DCD-A1D6-A5B46C0D336D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|f:\\visualbasicprograms\\practicedependencyinjecton\\employeemanagementsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC021417-7D2C-4DCD-A1D6-A5B46C0D336D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F56DF4E-7EF0-42B9-949D-E42C0D57AB89}|FoodOrderSystem\\FoodOrderSystem.csproj|f:\\visualbasicprograms\\practicedependencyinjecton\\foodordersystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F56DF4E-7EF0-42B9-949D-E42C0D57AB89}|FoodOrderSystem\\FoodOrderSystem.csproj|solutionrelative:foodordersystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E83D13BD-D48F-4C5C-9EFC-D3650E1FBD18}|StudentManagementSystem\\StudentManagementSystem.csproj|f:\\visualbasicprograms\\practicedependencyinjecton\\studentmanagementsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E83D13BD-D48F-4C5C-9EFC-D3650E1FBD18}|StudentManagementSystem\\StudentManagementSystem.csproj|solutionrelative:studentmanagementsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F56DF4E-7EF0-42B9-949D-E42C0D57AB89}|FoodOrderSystem\\FoodOrderSystem.csproj|f:\\visualbasicprograms\\practicedependencyinjecton\\foodordersystem\\views\\home\\addfoodorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F56DF4E-7EF0-42B9-949D-E42C0D57AB89}|FoodOrderSystem\\FoodOrderSystem.csproj|solutionrelative:foodordersystem\\views\\home\\addfoodorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E83D13BD-D48F-4C5C-9EFC-D3650E1FBD18}|StudentManagementSystem\\StudentManagementSystem.csproj|f:\\visualbasicprograms\\practicedependencyinjecton\\studentmanagementsystem\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E83D13BD-D48F-4C5C-9EFC-D3650E1FBD18}|StudentManagementSystem\\StudentManagementSystem.csproj|solutionrelative:studentmanagementsystem\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F56DF4E-7EF0-42B9-949D-E42C0D57AB89}|FoodOrderSystem\\FoodOrderSystem.csproj|f:\\visualbasicprograms\\practicedependencyinjecton\\foodordersystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F56DF4E-7EF0-42B9-949D-E42C0D57AB89}|FoodOrderSystem\\FoodOrderSystem.csproj|solutionrelative:foodordersystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E83D13BD-D48F-4C5C-9EFC-D3650E1FBD18}|StudentManagementSystem\\StudentManagementSystem.csproj|f:\\visualbasicprograms\\practicedependencyinjecton\\studentmanagementsystem\\di\\mydi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E83D13BD-D48F-4C5C-9EFC-D3650E1FBD18}|StudentManagementSystem\\StudentManagementSystem.csproj|solutionrelative:studentmanagementsystem\\di\\mydi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC021417-7D2C-4DCD-A1D6-A5B46C0D336D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|f:\\visualbasicprograms\\practicedependencyinjecton\\employeemanagementsystem\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC021417-7D2C-4DCD-A1D6-A5B46C0D336D}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F56DF4E-7EF0-42B9-949D-E42C0D57AB89}|FoodOrderSystem\\FoodOrderSystem.csproj|f:\\visualbasicprograms\\practicedependencyinjecton\\foodordersystem\\views\\home\\updatefoodorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F56DF4E-7EF0-42B9-949D-E42C0D57AB89}|FoodOrderSystem\\FoodOrderSystem.csproj|solutionrelative:foodordersystem\\views\\home\\updatefoodorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,67 +30,54 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "F:\\VisualBasicPrograms\\PracticeDependencyInjecton\\StudentManagementSystem\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "StudentManagementSystem\\Controllers\\HomeController.cs",
-              "ToolTip": "F:\\VisualBasicPrograms\\PracticeDependencyInjecton\\StudentManagementSystem\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "StudentManagementSystem\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T18:32:28.887Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Global.asax.cs",
-              "DocumentMoniker": "F:\\VisualBasicPrograms\\PracticeDependencyInjecton\\StudentManagementSystem\\Global.asax.cs",
-              "RelativeDocumentMoniker": "StudentManagementSystem\\Global.asax.cs",
-              "ToolTip": "F:\\VisualBasicPrograms\\PracticeDependencyInjecton\\StudentManagementSystem\\Global.asax.cs",
-              "RelativeToolTip": "StudentManagementSystem\\Global.asax.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T18:31:48.796Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\VisualBasicPrograms\\PracticeDependencyInjecton\\FoodOrderSystem\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FoodOrderSystem\\Views\\Home\\Index.cshtml",
+              "ToolTip": "F:\\VisualBasicPrograms\\PracticeDependencyInjecton\\FoodOrderSystem\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FoodOrderSystem\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAADwvzIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T01:29:04.902Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MyDI.cs",
-              "DocumentMoniker": "F:\\VisualBasicPrograms\\PracticeDependencyInjecton\\StudentManagementSystem\\DI\\MyDI.cs",
-              "RelativeDocumentMoniker": "StudentManagementSystem\\DI\\MyDI.cs",
-              "ToolTip": "F:\\VisualBasicPrograms\\PracticeDependencyInjecton\\StudentManagementSystem\\DI\\MyDI.cs",
-              "RelativeToolTip": "StudentManagementSystem\\DI\\MyDI.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAswBwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T18:27:23.587Z",
+              "Title": "UpdateFoodOrder.cshtml",
+              "DocumentMoniker": "F:\\VisualBasicPrograms\\PracticeDependencyInjecton\\FoodOrderSystem\\Views\\Home\\UpdateFoodOrder.cshtml",
+              "RelativeDocumentMoniker": "FoodOrderSystem\\Views\\Home\\UpdateFoodOrder.cshtml",
+              "ToolTip": "F:\\VisualBasicPrograms\\PracticeDependencyInjecton\\FoodOrderSystem\\Views\\Home\\UpdateFoodOrder.cshtml",
+              "RelativeToolTip": "FoodOrderSystem\\Views\\Home\\UpdateFoodOrder.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T01:28:41.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddFoodOrder.cshtml",
+              "DocumentMoniker": "F:\\VisualBasicPrograms\\PracticeDependencyInjecton\\FoodOrderSystem\\Views\\Home\\AddFoodOrder.cshtml",
+              "RelativeDocumentMoniker": "FoodOrderSystem\\Views\\Home\\AddFoodOrder.cshtml",
+              "ToolTip": "F:\\VisualBasicPrograms\\PracticeDependencyInjecton\\FoodOrderSystem\\Views\\Home\\AddFoodOrder.cshtml*",
+              "RelativeToolTip": "FoodOrderSystem\\Views\\Home\\AddFoodOrder.cshtml*",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwvx8AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T01:28:19.596Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "F:\\VisualBasicPrograms\\PracticeDependencyInjecton\\EmployeeManagementSystem\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Controllers\\HomeController.cs",
-              "ToolTip": "F:\\VisualBasicPrograms\\PracticeDependencyInjecton\\EmployeeManagementSystem\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "EmployeeManagementSystem\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
+              "DocumentMoniker": "F:\\VisualBasicPrograms\\PracticeDependencyInjecton\\FoodOrderSystem\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FoodOrderSystem\\Controllers\\HomeController.cs",
+              "ToolTip": "F:\\VisualBasicPrograms\\PracticeDependencyInjecton\\FoodOrderSystem\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FoodOrderSystem\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAADwvy0AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T18:22:32.859Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Global.asax.cs",
-              "DocumentMoniker": "F:\\VisualBasicPrograms\\PracticeDependencyInjecton\\EmployeeManagementSystem\\Global.asax.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Global.asax.cs",
-              "ToolTip": "F:\\VisualBasicPrograms\\PracticeDependencyInjecton\\EmployeeManagementSystem\\Global.asax.cs",
-              "RelativeToolTip": "EmployeeManagementSystem\\Global.asax.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T18:21:21.902Z",
+              "WhenOpened": "2024-11-04T01:27:55.04Z",
               "EditorCaption": ""
             }
           ]
